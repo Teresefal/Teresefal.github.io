@@ -241,10 +241,11 @@ body {
 }
 .crossword-background{
   position: absolute;
-  top: 120px;
+  top: 121px;
+  left: 1px;
   z-index: -1;
-  width: 653px;
-  height: 653px;
+  width: 652px;
+  height: 652px;
 }
 
 
