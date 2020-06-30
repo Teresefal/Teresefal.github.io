@@ -1,5 +1,9 @@
 @font-face {
   font-family: 'font5913db4e49c28ce082b1f53d4c159e11';
+	
+:root {
+    font-family: ALSSchlangesans-Bold;
+}
 
   src: url('https://nomail.com.ua/files/eot/5913db4e49c28ce082b1f53d4c159e11.eot?#iefix') format('embedded-opentype'),
   url('https://nomail.com.ua/files/woff/5913db4e49c28ce082b1f53d4c159e11.woff') format('woff'),
@@ -486,7 +490,7 @@ body {
 	width: 650px;
   }
   .crossword-clues__list {
-	margin: 0 0 0 60px;
+	margin: 20px 0 0 60px;
 	padding: 0;
 	display: inline-block;
 	vertical-align: top;
