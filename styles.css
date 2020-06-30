@@ -490,10 +490,16 @@ body {
 	width: 650px;
   }
   .crossword-clues__list {
-	margin: 20px 0 0 60px;
-	padding: 0;
-	display: inline-block;
-	vertical-align: top;
+  margin: 0 0 0 60px;
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+  }
+  .crossword-clues__list--across {
+  margin: -5 0 10 60px;
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
   }
   .crossword-clues__list-title {
 	font-weight: bold;
