@@ -460,7 +460,7 @@ body {
 	grid-row: 10/14;
   }
   
-  #item1-1:valid ~ #item2-1:valid ~ #item3-1:valid ~ #item4-1:valid ~ #item5-1:valid ~ #item6-1:valid ~ #item7-1:valid ~ #item8-1:valid ~ #item9-1:valid ~ .crossword-board--highlight .crossword-board__item-highlight--down-1 {
+  #item1-1:valid ~ #item2-1:valid ~ #item3-1:valid ~ #item4-1:valid ~ #item5-1:valid ~ #item6-1:valid ~ #item7-1:valid ~ #item8-1:valid ~ .crossword-board--highlight .crossword-board__item-highlight--down-1 {
 	opacity: 1;
   }
   #item1-7:valid ~ #item2-7:valid ~ #item3-7:valid ~ #item4-7:valid ~ #item5-7:valid ~ #item6-7:valid ~ #item7-7:valid ~ #item8-7:valid ~ #item9-7:valid ~ #item10-7:valid ~ #item11-7:valid ~ #item12-7:valid ~ #item13-7:valid ~ .crossword-board--highlight .crossword-board__item-highlight--down-3 {
