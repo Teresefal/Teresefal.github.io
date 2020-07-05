@@ -21,92 +21,6 @@ body {
   display: flex;
 }
 
-.navbar-fixed-top {
-  text-align: center;
-  margin: 0;
-  background-color: #19284d;
-  height: 110px;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  z-index: 4000;
-}
-
-.nav-container {
-  display: flex;
-  justify-content: space-between;
-  width: 1140px;
-}
-
-/* 
-⠄⠄⠄⠄⠄⠄⢴⡶⣶⣶⣶⡒⣶⣶⣖⠢⡄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄ ⠄⠄⠄⠄⠄⠄⢠⣿⣋⣿⣿⣉⣿⣿⣯⣧⡰⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄ 
-⠄⠄⠄⠄⠄⠄⣿⣿⣹⣿⣿⣏⣿⣿⡗⣿⣿⠁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄ ⠄⠄⠄⠄⠄⠄⠟⡛⣉⣭⣭⣭⠌⠛⡻⢿⣿⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄ 
-⠄⠄⠄⠄⠄⠄⠄⠄⣤⡌⣿⣷⣯⣭⣿⡆⣈⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄ ⠄⠄⠄⠄⠄⠄⠄⢻⣿⣿⣿⣿⣿⣿⣿⣷⢛⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄ 
-⠄⠄⠄⠄⠄⠄⠄⠄⢻⣷⣽⣿⣿⣿⢿⠃⣼⣧⣀⠄⠄⠄⠄⠄⠄⠄⠄⠄ ⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣛⣻⣿⠟⣀⡜⣻⢿⣿⣿⣶⣤⡀⠄⠄⠄⠄⠄ 
-⠄⠄⠄⠄⠄⠄⠄⠄⢠⣤⣀⣨⣥⣾⢟⣧⣿⠸⣿⣿⣿⣿⣿⣤⡀⠄⠄⠄ ⠄⠄⠄⠄⠄⠄⠄⠄⢟⣫⣯⡻⣋⣵⣟⡼⣛⠴⣫⣭⣽⣿⣷⣭⡻⣦⡀⠄ 
-⠄⠄⠄⠄⠄⠄⠄⢰⣿⣿⣿⢏⣽⣿⢋⣾⡟⢺⣿⣿⣿⣿⣿⣿⣷⢹⣷⠄ ⠄⠄⠄⠄⠄⠄⠄⣿⣿⣿⢣⣿⣿⣿⢸⣿⡇⣾⣿⠏⠉⣿⣿⣿⡇⣿⣿⡆ 
-⠄⠄⠄⠄⠄⠄⠄⣿⣿⣿⢸⣿⣿⣿⠸⣿⡇⣿⣿⡆⣼⣿⣿⣿⡇⣿⣿⡇ ⠇⢀⠄⠄⠄⠄⠄⠘⣿⣿⡘⣿⣿⣷⢀⣿⣷⣿⣿⡿⠿⢿⣿⣿⡇⣩⣿⡇ 
-⣿⣿⠃⠄⠄⠄⠄⠄⠄⢻⣷⠙⠛⠋⣿⣿⣿⣿⣿⣷⣶⣿⣿⣿⡇⣿⣿⡇ 
-*/
-
-
-.navbar-logo {
-  display: block;
-  height: 100px;
-  width: 200px;
-  background-size: contain;
-  background: url(images/logo-top.png) no-repeat center center;
-}
-
-.navbar-nav {
-  align-self: flex-end;
-  height: 42px;
-  display: flex;
-  width: 700px;
-}
-
-.navbar-nav a {
-  color: white;
-  font-family: "ALSSchlangesans-Bold";
-  font-size: 18px;
-  text-decoration: none;
-}
-
-.navbar-nav__item-link {
-  margin: 15px 15px 5px;
-  transition-duration: 0.1s;
-  border-bottom: 2px solid transparent;
-}
-
-.navbar-nav__item-link:hover {
-  color: #98d50f;
-  border-bottom: 2px solid #8dc60c;
-}
-
-.dropbox-head {
-  z-index: 4100;
-  display: flex;
-  flex-direction: column;
-}
-
-.dropbox-hidden:hover {
-  color: lightgrey;
-}
-
-.dropbox-hidden {
-  display: none;
-  font-size: 15px;
-  padding: 10px;
-  background-color: #19284d;
-}
-
-.dropbox-head:hover .dropbox-hidden {
-  display: block;
-  font-size: 15px;
-}
-
 .crossword-board-container {
 	position: relative;
   background: #FFFFFF;
@@ -985,9 +899,6 @@ body {
           background: #9AFF67;
           }
         #item10-12:valid ~ #item11-12:valid ~ #item12-12:valid ~ #item13-12:valid ~ .crossword-clues .crossword-clues__list-item--down-15 {
-          background: #9AFF67;
-          }
-        #item2-13:valid ~ #item3-13:valid ~ #item4-13:valid ~ .crossword-clues .crossword-clues__list-item--down-6 {
           background: #9AFF67;
           }
           
